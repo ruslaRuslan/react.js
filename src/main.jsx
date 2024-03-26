@@ -3,8 +3,4 @@ import ReactDOM from 'react-dom/client'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-root.render(
-  <React.StrictMode>
-    <div>salam react qardas</div>
-  </React.StrictMode>,
-)
+root.render(<div>salam react qardas</div>)
