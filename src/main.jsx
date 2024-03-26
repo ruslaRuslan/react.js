@@ -4,10 +4,22 @@ import ReactDOM from 'react-dom/client'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 
-const kodlar = <div>
-  <h1>salam react qardas</h1>
-  <p>senen ne xeber?</p>
-</div>
+// const kodlar = <div>
+//   <h1>salam react qardas</h1>
+//   <p>senen ne xeber?</p>
+// </div>
+// root.render(kodlar)
 
 
-root.render(kodlar)
+function a() {
+  return <div>
+    <h1>salam react qardas</h1>
+    <p>senen ne xeber?</p>
+  </div>
+}
+a()
+
+root.render(
+  a()
+
+)
