@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import "./a.css"
+import FuncName from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-import "./a.css"
+
 
 // const kodlar = <div>
 //   <h1>salam react qardas</h1>
@@ -204,18 +206,32 @@ import "./a.css"
 
 // ----------------------------------------------------------------------------------------------------------------
 
-function A({ad, age}) {
-  return <div>
-    <h1 style={{ color: 'red' }}>{ad}: salam  Ruslan qardas, menim {age} yasim var</h1>
-  </div>
-}
+// function A({ad, age}) {
+//   return <div>
+//     <h1 style={{ color: 'red' }}>{ad}: salam  Ruslan qardas, menim {age} yasim var</h1>
+//   </div>
+// }
+
+
+// root.render(
+//   <div>
+//     <A ad="sebine" age={26} />
+//     <A ad="sada" age={40} />
+//     <A ad="ali" age={30} />
+//   </div>
+
+// )
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
 
 
 root.render(
   <div>
-    <A ad="sebine" age={26} />
-    <A ad="sada" age={40} />
-    <A ad="ali" age={30} />
+    <FuncName ad="sebine" age={26} />
+    <FuncName ad="sada" age={40} />
+    <FuncName ad="ali" age={30} />
   </div>
 
 )
