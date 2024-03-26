@@ -10,6 +10,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 // </div>
 // root.render(kodlar)
 
+// ----------------------------------------------------------------------------------------------------------------
+
+// function a() {
+//   return <div>
+//     <h1>salam react qardas</h1>
+//     <p>senen ne xeber?</p>
+//   </div>
+// }
+// a()
+
+// root.render(
+//   a()
+
+// )
+
+// ----------------------------------------------------------------------------------------------------------------
+
 
 function a() {
   return <div>
@@ -20,6 +37,8 @@ function a() {
 a()
 
 root.render(
-  a()
+  <div>
+    {a()}
+  </div>
 
 )
