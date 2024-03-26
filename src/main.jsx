@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+import "./a.css"
 
 // const kodlar = <div>
 //   <h1>salam react qardas</h1>
@@ -122,20 +123,41 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 // ----------------------------------------------------------------------------------------------------------------
 
-const qirmizi = { color: 'red' }
+// const qirmizi = { color: 'red' }
 
-function a() {
+// function a() {
+//   return <div>
+//     <h1 style={qirmizi}>salam Ruslan qardas</h1>
+//   </div>
+// }
+// a()
+
+// root.render(
+//   <div>
+//     {a()}
+//     {a()}
+//     {a()}
+//   </div>
+
+// )
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
+
+function a(ad) {
+  console.log(ad);
   return <div>
-    <h1 style={qirmizi}>salam Ruslan qardas</h1>
+    <h1 style={{ color: 'red' }}>salam {ad} Ruslan qardas</h1>
   </div>
 }
 a()
 
 root.render(
   <div>
-    {a()}
-    {a()}
-    {a()}
+    {a("sebine")}
+    {a("sada")}
+    {a("ali")}
   </div>
 
 )
