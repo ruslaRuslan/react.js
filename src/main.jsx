@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-const root = document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-  ReactDOM.createRoot(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-  )
+  <React.StrictMode>
+    <div>salam react qardas</div>
+  </React.StrictMode>,
 )
