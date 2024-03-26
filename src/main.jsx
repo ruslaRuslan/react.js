@@ -145,19 +145,39 @@ import "./a.css"
 
 
 
-function a(ad) {
+// function a(ad) {
+//   console.log(ad);
+//   return <div>
+//     <h1 style={{ color: 'red' }}>salam {ad} Ruslan qardas</h1>
+//   </div>
+// }
+// a()
+
+// root.render(
+//   <div>
+//     {a("sebine")}
+//     {a("sada")}
+//     {a("ali")}
+//   </div>
+
+// )
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
+function a(ad, age) {
   console.log(ad);
   return <div>
-    <h1 style={{ color: 'red' }}>salam {ad} Ruslan qardas</h1>
+    <h1 style={{ color: 'red' }}>{ad}: salam  Ruslan qardas, menim {age} yasim var</h1>
   </div>
 }
 a()
 
 root.render(
   <div>
-    {a("sebine")}
-    {a("sada")}
-    {a("ali")}
+    {a("sebine", 26)}
+    {a("sada", 40)}
+    {a("ali", 30)}
   </div>
 
 )
