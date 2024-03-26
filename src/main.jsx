@@ -103,10 +103,30 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 // ----------------------------------------------------------------------------------------------------------------
 
+// function a() {
+//   return <div>
+//     <h1 style={{color: 'blue'}}>salam react qardas {2 + 2}</h1>
+//     <p style={{ color: 'red' }}>senen ne xeber?</p>
+//   </div>
+// }
+// a()
+
+// root.render(
+//   <div>
+//     {a()}
+//     {a()}
+//     {a()}
+//   </div>
+
+// )
+
+// ----------------------------------------------------------------------------------------------------------------
+
+const qirmizi = { color: 'red' }
+
 function a() {
   return <div>
-    <h1 style={{color: 'blue'}}>salam react qardas {2 + 2}</h1>
-    <p style={{ color: 'red' }}>senen ne xeber?</p>
+    <h1 style={qirmizi}>salam Ruslan qardas</h1>
   </div>
 }
 a()
