@@ -226,12 +226,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 
 
+// root.render(
+//   <div>
+//     <FuncName ad="sebine" age={26} />
+//     <FuncName ad="sada" age={40} />
+//     <FuncName ad="ali" age={30} />
+//   </div>
 
-root.render(
-  <div>
-    <FuncName ad="sebine" age={26} />
-    <FuncName ad="sada" age={40} />
-    <FuncName ad="ali" age={30} />
-  </div>
-
-)
+// )
